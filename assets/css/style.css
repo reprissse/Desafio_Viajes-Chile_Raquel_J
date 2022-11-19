@@ -16,8 +16,30 @@ body {
     width:100%;
 }
 
+/* Media Query -NavBar 1*/
+@media (max-width:768px) {
+    .navbar-brand {
+        width: 30px;
+    }
+}
+
+
+
+/* Media Query -NavBar 2*/
+@media (min-width:769px) {
+    .navbar-brand {
+        width: 30px;
+    }
+}
+
+
 .fixed{
     position:fixed top; 
     top: 0px;
     z-index: 1;
+}
+
+/* carrusel*/   
+.carousel-inner {
+    position: fixed top;
 }
