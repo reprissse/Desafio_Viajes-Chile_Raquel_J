@@ -43,3 +43,18 @@ body {
 .carousel-inner {
     position: fixed top;
 }
+
+/* Card- Destacados */
+.card {
+    margin-bottom: 50px;
+} 
+
+/* Card-Titulo */
+#Viajes .card-titulo {
+    font-size: 20px;
+}
+
+/* Card-texto */
+#Viajes .card-titulo .card-texto {
+    font-size: 12px;
+}
