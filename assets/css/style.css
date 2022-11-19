@@ -58,3 +58,23 @@ body {
 #Viajes .card-titulo .card-texto {
     font-size: 12px;
 }
+
+/* Formulario de contacto*/
+form {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+/*Footer*/
+footer a {
+    text-decoration: none;
+    }
+
+footer .sinpadding [class*="col-"] {
+        padding: 0;
+    }
+
+footer .row {
+    margin: 0px 0px;
+}
