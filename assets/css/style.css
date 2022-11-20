@@ -1,4 +1,4 @@
-/* Receteo */
+/* RECETEO */
 * {
     margin: 0px;
     padding: 0px;
@@ -6,67 +6,59 @@
     scroll-behavior: smooth;
     }
 
-/* Tipografia pagina */    
+/* TIPOGRAFIA PAGINA */    
 body {
     font-family: 'Cabin', sans-serif;
 }
 
+/* NAVBAR */ 
 .navbar{ 
     height:50px; 
     width:100%;
 }
 
-/* Media Query -NavBar 1*/
+/* MEDIA QUERY- NAVBAR 1*/
 @media (max-width:768px) {
     .navbar-brand {
         width: 30px;
     }
 }
 
-
-
-/* Media Query -NavBar 2*/
+/* MEDIA QUERY- NAVBAR 2*/
 @media (min-width:769px) {
     .navbar-brand {
         width: 30px;
     }
 }
 
-
-.fixed{
-    position:fixed top; 
-    top: 0px;
-    z-index: 1;
-}
-
-/* carrusel*/   
+/* CARRUSEL*/   
 .carousel-inner {
     position: fixed top;
 }
 
-/* Card- Destacados */
+/* CARD- Destacados */
 .card {
     margin-bottom: 50px;
 } 
 
-/* Card-Titulo */
+/* CARD-Titulo */
 #Viajes .card-titulo {
     font-size: 20px;
 }
 
-/* Card-texto */
+/* CARD-texto */
 #Viajes .card-titulo .card-texto {
     font-size: 12px;
 }
 
-/* Formulario de contacto*/
+/* FORMULARIO contacto*/
 form {
     margin-left: 50px;
     margin-right: 50px;
     margin-bottom: 50px;
 }
 
-/*Footer*/
+/*FOOTER*/
 footer a {
     text-decoration: none;
     }
